@@ -268,15 +268,6 @@ next.addEventListener("click", (e) => {
     const step = hanoi(dn)[stp];
     const from = step.slice(0, 1);
     const to = step.slice(1, 2);
-    //
-    console.log(
-      "step",
-      step,
-      "from:",
-      from,
-      "postion from",
-      Disks.filter((d) => d.pos === from)
-    );
 
     const movingDisk = Disks.filter((d) => d.pos === from).reduce(function (
       prev,
