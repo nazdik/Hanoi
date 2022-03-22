@@ -36,7 +36,7 @@ function hanoi(n) {
       .split(",");
   }
 }
-console.log(hanoi(4));
+
 const canvas = d3.select(".canvas");
 const svg = canvas
   .append("svg")
